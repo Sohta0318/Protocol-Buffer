@@ -7,11 +7,17 @@ enum EyeColor {
   EYE_COLOR_BLOWN = 3;
 }
 
+/* Account
+  Used to identify someone in our system
+*/
+
 message Account {
 uint32 id = 1;
 string name = 2;
-bytes thumbnail = 3;
+bytes thumbnail = 3; // picture in .jpeg format
 bool is_verified = 4;
+
+// hight in cm
 float height = 5;
 
 repeated string phones = 6;
