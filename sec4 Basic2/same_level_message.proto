@@ -1,6 +1,6 @@
 syntax="proto3";
 
-message MessgaeOne {
+message MessageOne {
 
 }
 
@@ -11,6 +11,6 @@ enum EnumOne {
 }
 
 message MessageTwo {
-  MessgaeOne one =1;
+  MessageOne one =1;
 EnumOne two = 2;
 }
