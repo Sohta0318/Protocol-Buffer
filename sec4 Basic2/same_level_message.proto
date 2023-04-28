@@ -1,0 +1,16 @@
+syntax="proto3";
+
+message MessgaeOne {
+
+}
+
+enum EnumOne {
+  ENUM_ONE_UNSPECIFIED = 0;
+
+  // ...
+}
+
+message MessageTwo {
+  MessgaeOne one =1;
+EnumOne two = 2;
+}
